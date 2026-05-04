@@ -1,0 +1,6 @@
+2026-05-04 15:05:17 | INFO     | root | Logging initialised — file: logs/app.log
+2026-05-04 15:05:17 | INFO     | bot.validators | Input validation passed: OrderParams(symbol='BTCUSDT', side='SELL', order_type='LIMIT', quantity=0.01, price=78000.0)
+2026-05-04 15:05:18 | INFO     | bot.orders | Placing LIMIT SELL order for BTCUSDT — qty=0.01 price=78000.0
+2026-05-04 15:05:18 | INFO     | bot.client | → POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.01, 'price': 78000.0, 'timeInForce': 'GTC', 'timestamp': 1777887318032, 'recvWindow': 5000, 'signature': '***'}
+2026-05-04 15:05:18 | INFO     | bot.client | API call successful: orderId=13105446095
+2026-05-04 15:05:18 | INFO     | bot.orders | Order placed — id=13105446095 status=NEW executedQty=0.0000 avgPrice=0.00

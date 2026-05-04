@@ -1,0 +1,6 @@
+2026-05-04 15:03:01 | INFO     | root | Logging initialised — file: logs/app.log
+2026-05-04 15:03:01 | INFO     | bot.validators | Input validation passed: OrderParams(symbol='BTCUSDT', side='BUY', order_type='MARKET', quantity=0.01, price=None)
+2026-05-04 15:03:01 | INFO     | bot.orders | Placing MARKET BUY order for BTCUSDT — qty=0.01 price=None
+2026-05-04 15:03:01 | INFO     | bot.client | → POST https://testnet.binancefuture.com/fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1777887181000, 'recvWindow': 5000, 'signature': '***'}
+2026-05-04 15:03:02 | INFO     | bot.client | API call successful: orderId=13105446001
+2026-05-04 15:03:02 | INFO     | bot.orders | Order placed — id=13105446001 status=FILLED executedQty=0.01 avgPrice=75752.40
